@@ -15,7 +15,7 @@
 	var defaultKey		= 'XYDY4HbRwOmrp39Ku9kOjqeeKAeU7P5GRc1iqNdrQXF7Dz4J', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [203415880], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Raspberry Pi Data Feed', // Replaces Xively logo in the header
-		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataDuration	= 'week', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
 		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
