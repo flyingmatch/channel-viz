@@ -157,7 +157,7 @@
 											bottom: 0.02,
 											left: 0.02
 										},
-										series: [{data: series, color:'#4682b4'}, {data: series, color: '#9cc1e0'}]
+										series: series
 									});
 
 									graph.render();
